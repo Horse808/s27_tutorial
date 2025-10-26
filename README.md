@@ -12,8 +12,15 @@
 
 我使用了 vscode 编译方法来完成任务。
 执行方式：
+halo.c
+#include <stdio.h>
+int main(){
+    printf("Hello word, hello PHOENIX");
+    return 0;
+}
 ```bash
 # 在终端中输入以下命令
+    gcc halo.c -o halo
    ./halo
 ```
 - 结果截图：
